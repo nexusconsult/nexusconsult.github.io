@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Nexus Labour Relation Consultants</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Nexus Labour Relation Consultants</h1>
+            <nav>
+                <a href="index.html" class="text-gray-700 hover:text-gray-900 ml-4">Home</a>
+                <a href="services.html" class="text-gray-700 hover:text-gray-900 ml-4">Services</a>
+                <a href="about.html" class="text-gray-700 hover:text-gray-900 ml-4">About</a>
+                <a href="contact.html" class="text-gray-700 hover:text-gray-900 ml-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <h2 class="text-2xl font-bold mb-4">About Us</h2>
+        <p>Nexus Labour Relation Consultants specializes in delivering premier training, recruitment services, conflict and discipline management, and the preparation of employment and termination letters for employers and corporations. Our mission is to ensure that all stakeholders remain compliant with Ontario labour laws, promoting a harmonious and legally sound workplace environment.</p>
+    </main>
+    <footer class="bg-white shadow mt-8">
+        <div class="container mx-auto px-4 py-6 text-center">
+            <p>Contact us at <a href="mailto:info@nexusconsultants.com" class="text-blue-500">info@nexusconsultants.com</a></p>
+            <p class="text-gray-700 mt-4">© 2024 Nexus Labour Relation Consultants</p>
+        </div>
+    </footer>
+</body>
+</html>
