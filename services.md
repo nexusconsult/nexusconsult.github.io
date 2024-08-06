@@ -1,7 +1,4 @@
----
-layout: default
-title: Services
----
+
 
 
 # Our Services
