@@ -1,6 +1,4 @@
 
-
-
 # Our Services
 
 - Premier Training Services
