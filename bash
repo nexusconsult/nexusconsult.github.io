@@ -1,3 +1,6 @@
+echo " " >> index.html
 git add .
-git commit -m "Add Jekyll theme and initial content"
+git commit -m "Trigger rebuild"
 git push origin main
+
+
