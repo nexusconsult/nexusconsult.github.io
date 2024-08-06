@@ -1,7 +1,4 @@
----
-layout: default
-title: Index
----
+
 
 # Welcome to Nexus Labour Relation Consultants
 
