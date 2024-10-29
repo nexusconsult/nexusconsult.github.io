@@ -31,7 +31,7 @@
             formData.append("entry.YOUR_EMAIL_ENTRY_ID", document.getElementById("email").value);
             formData.append("entry.YOUR_PHONE_ENTRY_ID", document.getElementById("phone").value);
 
-            fetch("https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse", {
+            fetch("https://docs.google.com/forms/d/e/<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZWU9te7tZ2kz0JGaCVzM3ZIBk9EGH_znhAMKuRMMfUCWxXg/viewform?embedded=true" width="640" height="1056" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>/formResponse", {
                 method: "POST",
                 body: formData,
                 mode: "no-cors"
