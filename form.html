@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Submit Your Information</h1>
-    <form id="infoForm">
+    <form id="infoForm" action="https://formspree.io/f/xqakpkyj" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -20,6 +20,14 @@
 
         <button type="submit">Submit</button>
     </form>
+
+    <script>
+        document.getElementById("infoForm").addEventListener("submit", function(event) {
+            alert("Thank you for submitting your information!");
+        });
+    </script>
+</body>
+</html>
 
     <script>
         document.getElementById("infoForm").addEventListener("submit", function(event) {
