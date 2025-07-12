@@ -3,46 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us – Nexus Labour Relations Consultants</title>
+  <title>Contact Us - Nexus Labour Relation Consultants</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Nexus Labour Relations Consultants</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="form.html">Form</a></li>
+
+<header class="text-center bg-primary text-white py-4">
+  <h1>Contact Us</h1>
+  <p>We’d love to hear from you — fill out the form below</p>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0056b3;">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="index.html">Nexus</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">About Us</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="who_we_are.html">Who We Are</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="training.html">Training</a></li>
+            <li><a class="dropdown-item" href="recruitment.html">Recruitment</a></li>
+            <li><a class="dropdown-item" href="conflict.html">Conflict Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Events</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="upcoming.html">Upcoming</a></li>
+            <li><a class="dropdown-item" href="past.html">Past</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact Us</a></li>
       </ul>
-    </nav>
-  </header>
+      <div class="d-flex align-items-center">
+        <a href="form.html" class="btn btn-danger me-3">Free Consultation</a>
+        <a href="cart.html" class="text-white me-3"><i class="bi bi-cart" style="font-size: 1.5rem;"></i></a>
+        <a href="login.html" class="text-white"><i class="bi bi-person-circle" style="font-size: 1.5rem;"></i> Log In</a>
+      </div>
+    </div>
+  </div>
+</nav>
 
-  <main>
-    <section>
-      <h2>Contact Us</h2>
-      <p>If you have any questions or need our services, feel free to reach out to us.</p>
-      
-      <!-- Formspree Form -->
-      <form action="https://formspree.io/f/xjkbnzva" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+<section class="section container py-5">
+  <form class="row g-3" action="https://docs.google.com/forms/d/e/1FAIpQLSdtili35hydtODOUn-EJ9VkgZ4kuih38osu7nluGMPvdB2mAA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+    <div class="col-md-6">
+      <label for="fullName" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="fullName" name="entry.1596279195" required>
+    </div>
+    <div class="col-md-6">
+      <label for="email" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="email" name="entry.1019695104" required>
+    </div>
+    <div class="col-12">
+      <label for="message" class="form-label">Your Message</label>
+      <textarea class="form-control" id="message" name="entry.652589360" rows="5" required></textarea>
+    </div>
+    <div class="col-12 text-center">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+  <iframe name="hidden_iframe" style="display:none;" onload="if(submitted) alert('Thank you! Your message has been sent.')"></iframe>
+</section>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+<footer class="text-white text-center py-3" style="background-color:#004080;">
+  <p>&copy; 2025 Nexus Labour Relation Consultants. All rights reserved.</p>
+</footer>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit" style="display: block; margin-top: 20px;">Send Message</button>
-
-        <!-- Optional: Add a hidden input to redirect to a thank you page -->
-        <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
-      </form>
-    </section>
-  </main>
-
+<script>
+  let submitted = false;
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
