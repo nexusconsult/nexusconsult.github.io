@@ -1,32 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexus Labour Relations Consultants</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Labour Relation Consultants</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .object-fit-cover {
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Nexus Labour Relations Consultants</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="form.html">Form</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome to Nexus Labour Relations Consultants</h2>
-            <p>We specialize in delivering premier training, recruitment services, conflict and discipline management, and the preparation of employment and termination letters for employers and corporations.</p>
-        </section>
-    </main>
-    <footer>
-       
-    </footer>
+
+<header class="text-center bg-primary text-white py-4">
+  <h1>Nexus Labour Relation Consultants</h1>
+  <p>Training | Recruitment | Conflict Management | Documentation</p>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0056b3;">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="index.html">Nexus</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">About Us</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="who_we_are.html">Who We Are</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="training.html">Training</a></li>
+            <li><a class="dropdown-item" href="recruitment.html">Recruitment</a></li>
+            <li><a class="dropdown-item" href="conflict.html">Conflict Management</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Events</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="upcoming.html">Upcoming</a></li>
+            <li><a class="dropdown-item" href="past.html">Past</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="d-flex align-items-center">
+        <a href="form.html" class="btn btn-danger me-3">Free Consultation</a>
+        <a href="cart.html" class="text-white me-3"><i class="bi bi-cart" style="font-size: 1.5rem;"></i></a>
+        <a href="login.html" class="text-white"><i class="bi bi-person-circle" style="font-size: 1.5rem;"></i> Log In</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="position-relative" style="height: 500px; overflow: hidden;">
+  <div id="nexusCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <img src="IMG_2165.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Slide 1">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="IMG_2171.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Slide 2">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="IMG_2175.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Slide 3">
+      </div>
+      <div class="carousel-item h-100">
+        <img src="IMG_2163.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Slide 4">
+      </div>
+    </div>
+  </div>
+
+  <div id="hero-text" class="position-absolute top-50 start-50 translate-middle text-dark text-center px-4 py-3 rounded" 
+       style="background-color: rgba(173, 216, 230, 0.9); display: none; max-width: 90%;">
+    <h2 class="fw-bold mb-2">Empowering Workplaces Across Canada</h2>
+    <p class="lead mb-3">Your trusted partner for employment and labour solutions.</p>
+    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+  </div>
+</section>
+
+<section class="section container-fluid py-5">
+  <h3 class="text-center mb-5">Our Services</h3>
+  <div class="row g-4 text-white">
+    <div class="col-md-4">
+      <div class="card bg-dark text-white border-0">
+        <img src="training&workshops.jpg" class="card-img" style="height: 300px; object-fit: cover;" alt="Training & Workshops">
+        <div class="card-img-overlay d-flex flex-column justify-content-end p-4" style="background: rgba(0, 0, 0, 0.4);">
+          <h5 class="card-title fw-bold">Training & Workshops</h5>
+          <p class="card-text">Staff development sessions focused on policy and compliance.</p>
+          <a href="training.html" class="text-white text-decoration-underline">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-dark text-white border-0">
+        <img src="Recruitment_services.jpg" class="card-img" style="height: 300px; object-fit: cover;" alt="Recruitment Services">
+        <div class="card-img-overlay d-flex flex-column justify-content-end p-4" style="background: rgba(0, 0, 0, 0.4);">
+          <h5 class="card-title fw-bold">Recruitment Services</h5>
+          <p class="card-text">Finding skilled talent tailored to your organization's needs.</p>
+          <a href="recruitment.html" class="text-white text-decoration-underline">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-dark text-white border-0">
+        <img src="conflict_reslution_pic.jpg" class="card-img" style="height: 300px; object-fit: cover;" alt="Conflict Management">
+        <div class="card-img-overlay d-flex flex-column justify-content-end p-4" style="background: rgba(0, 0, 0, 0.4);">
+          <h5 class="card-title fw-bold">Conflict Management</h5>
+          <p class="card-text">Professional mediation and dispute resolution services.</p>
+          <a href="conflict.html" class="text-white text-decoration-underline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="text-white text-center py-3" style="background-color:#004080;">
+  <p>&copy; 2025 Nexus Labour Relation Consultants. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const heroText = document.getElementById('hero-text');
+  const carousel = document.getElementById('nexusCarousel');
+  const slides = carousel.querySelectorAll('.carousel-item');
+  let currentIndex = 0;
+
+  heroText.style.display = "none";
+
+  carousel.addEventListener('slid.bs.carousel', function () {
+    currentIndex++;
+    if (currentIndex === slides.length - 1) {
+      setTimeout(() => {
+        heroText.style.display = "block";
+      }, 3000);
+    }
+  });
+</script>
 </body>
 </html>
